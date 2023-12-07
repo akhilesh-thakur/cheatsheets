@@ -25,3 +25,19 @@ git push -u origin main/master
 2. git rebase origin/main
 3. git rebase --continue
 4. git push origin main // finallay it will be pushed on the GitHub
+
+
+
+
+// INTERMEDIATE level
+
+1. ls -a
+2. cd .git
+3. git log
+4. vim this.txt // to open the text editor right in the terminal
+5. esc + :wq to save and exit the vim
+6. git branch <new_branch>
+7. git checkout <branch_name>
+8. git checkout -B <brach_name>
+9. git switch <branch>
+10. git clone <url>
