@@ -9,7 +9,7 @@ git commit -m "You message"
 
 git branch -m main or master
 
-git remote add origin <link-here>
+git remote add origin <link here>
 
 git push -u origin main/master
 
@@ -26,6 +26,11 @@ git push -u origin main/master
 3. git rebase --continue
 4. git push origin main // finallay it will be pushed on the GitHub
 
+// IF YOU ADDED NODE_MODULES DO THIS:
+
+1. git rm -r --cached node_modules
+2. git commit -m "Remove node_modules from tracking"
+3. git push origin main
 
 
 
