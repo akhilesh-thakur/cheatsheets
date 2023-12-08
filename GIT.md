@@ -12,7 +12,8 @@ git branch -m main or master
 git remote add origin <link here>
 
 git push -u origin main/master
-
+or,
+git push -f origin main
 
 // IF I'M GETTING ANY ERROR WHILE PUSHING I CAN USE COMMANDS LIKE
 
