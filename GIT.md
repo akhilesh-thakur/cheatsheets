@@ -1,17 +1,17 @@
 ## Git basic commands
 
-git init
+1. git init
 touch .gitignore // only when we want to ignore some file or folder
 
-git add .
+2. git add .
 
-git commit -m "You message"
+3. git commit -m "You message"
 
-git branch -m main or master
+4. git branch -m main or master
 
-git remote add origin <link here>
+5. git remote add origin <link here>
 
-git push -u origin main/master
+6. git push -u origin main/master
 or,
 git push -f origin main
 
@@ -47,3 +47,8 @@ git push -f origin main
 8. git checkout -B <brach_name>
 9. git switch <branch>
 10. git clone <url>
+
+
+// More..
+
+1. git checkout . => To undo all the changes in your codebase
