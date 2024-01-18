@@ -15,6 +15,8 @@ sudo apt install certbot python3-certbot-nginx
 sudo ufw status verbose
 ```
 - Obtain an SSL certificate
+You can skip www.your_domain.com if you have only one A record
+
 ```sh
 sudo certbot --nginx -d your_domain.com -d www.your_domain.com
 ```
