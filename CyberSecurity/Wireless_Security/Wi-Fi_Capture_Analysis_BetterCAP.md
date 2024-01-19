@@ -1,4 +1,4 @@
-# Wi-Fi Handshake Capture and Analysis
+# Wi-Fi Handshake Capture and Analysis With BetterCAP
 
 ## Description
 This project outlines the steps to capture Wi-Fi handshakes using BetterCAP and analyze them using hcxtools. The tools are intended for ethical security testing and should only be used with proper authorization.
